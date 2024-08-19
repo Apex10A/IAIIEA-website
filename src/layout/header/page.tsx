@@ -1,5 +1,5 @@
 "use client";
-import Logo from '../../assets/auth/images/IAIIEA Logo I.png';
+import Logo from '@/assets/auth/images/IAIIEA Logo I.png';
 import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation'; 

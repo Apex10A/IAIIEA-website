@@ -1,8 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import Logo from '../../assets/auth/images/IAIIEA Logo I.png';
-import ProfilePic from '../../assets/landingpage/images/Frame 1321316359.png';
+import Logo from '@/assets/auth/images/IAIIEA Logo I.png';
+import ProfilePic from '@/assets/landingpage/images/Frame 1321316359.png';
 import SearchIcon from '../../assets/landingpage/svg/VectorFour';
 import CaretUp from '@/assets/landingpage/svg/CaretUp';
 

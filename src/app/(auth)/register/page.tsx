@@ -111,7 +111,7 @@ const page = () => {
             </div>
           </div>
           <div className='py-3 font-[500]'>
-            <p>Click 'Become a member', it means that you have read and agreed to IAIIEA’s <span className='text-[#203A87] font-[600]'>Privacy policy</span></p>
+            <p>Click &apos;Become a member&apos;, it means that you have read and agreed to IAIIEA’s <span className='text-[#203A87] font-[600]'>Privacy policy</span></p>
           </div>
         </div>
         <div className='flex items-center justify-center pb-20'>
