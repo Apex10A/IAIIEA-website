@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation'; 
 import '../../app/globals.css';
-import Menu from "../../assets/auth/svg/menu"
+import Menu from "@/assets/auth/svg/Menu"
 import RegisterHomeBg from '@/components/home/registerHomeBg';
 
 const Header = () => {

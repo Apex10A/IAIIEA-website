@@ -1,6 +1,6 @@
 import React from 'react'
 
-const menu = () => {
+const Menu = () => {
   return (
     <div>
         <button className="text-white focus:outline-none">
@@ -13,4 +13,4 @@ const menu = () => {
   )
 }
 
-export default menu
+export default Menu
