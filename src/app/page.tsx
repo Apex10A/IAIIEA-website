@@ -1,26 +1,31 @@
-import DashboardHeader from "@/layout/header/DashboardHeader";
-import Sidebar from "@/layout/sidebar/page";
-import Homer from "../components/home/home/page";
+import React from 'react';
+import Header from "@/components/layout/header/page";
+import LandingPage from "@/modules/external/landing-page/index";
+import Media from "@/app/gallery/media/page"
 import "./index.css";
-import Payment from "../components/payment/Payment";
-import PaymentSuccessDashboard from "@/components/home/home/PaymentSuccessDashboard";
+import Footer from "@/components/layout/footer/page"
+import DashboardHeader from '@/components/layout/header/DashboardHeader';
+import Sidebar from '@/components/layout/sidebar/page';
+import Conference from "@/components/dashboard/conference/page"
+import TableSection from "@/components/dashboard/tableSection/TableSection"
+import PaymentSuccessDashboard from '@/components/home/home/PaymentSuccessDashboard';
+import Payment from '@/components/dashboard/payment/Payment';
+import PaymentHistory from "@/components/dashboard/payment/PaymentHistory"
+import Resources from "@/components/dashboard/resources/page"
+import ConferenceLandingPage from '@/modules/external/conference-landing-page/page'
 
 export default function Home() {
   return (
-    <div className="flex flex-col h-screen">
-      <div className="w-full">
-        <DashboardHeader />
-      </div>
-
-      <div className="flex flex-grow">
-        <div className="relative">
-          <Sidebar />
+    <>
+      <div className="flex flex-col h-screen relative">
+        <Header />
+        <div className="flex-grow pt-[80px]">
+          {/* <Media/>  */}
+          <LandingPage />
+          {/* <ConferenceLandingPage/> */}
         </div>
-        
-        <div className="flex-grow p-4 relative top-[50%] transform translate-y-[-30%]">
-          <PaymentSuccessDashboard/>
-        </div>
+        <Footer/>
       </div>
-    </div>
+    </>
   );
 }

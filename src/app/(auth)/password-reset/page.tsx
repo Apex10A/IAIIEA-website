@@ -1,4 +1,4 @@
-import Header from '@/layout/header/page'
+import Header from '@/components/layout/header/page'
 import React from 'react'
 import "../../index.css";
 import EyeIcon from "../../../assets/auth/svg/PasswordEye";
